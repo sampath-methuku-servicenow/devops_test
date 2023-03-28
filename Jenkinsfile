@@ -17,7 +17,7 @@ pipeline {
             steps {
                 
                 echo 'Deploy Step'
-                snDevOpsChange();
+                
             }
         }
     }
