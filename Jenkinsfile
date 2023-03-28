@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Step.Testing1 '
+                echo 'Build Step -- Testing1 '
             }
         }
         stage('Test') {
             steps {
-                echo 'Test Step  '
+                echo 'Test Step  -- Testing2 '
                 snDevOpsChange();
             }
         }
