@@ -10,6 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test Step  '
+                snDevOpsChange();
             }
         }
         stage('Deploy') {
