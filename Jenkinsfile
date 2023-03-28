@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Step. '
+                echo 'Build Step.Testing1 '
             }
         }
         stage('Test') {
