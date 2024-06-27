@@ -10,12 +10,12 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test Step  -- Testing2 '
-                snDevOpsChange();
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploy Step'
+                 snDevOpsChange();
                 
             }
         }
